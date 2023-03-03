@@ -133,7 +133,7 @@ if (isset($_POST['login'])) {
                                     <a class="register" href="register.php">Register</a>
                                 </span>
                             </div>
-                            <div class="wrapper-main-nav ">
+                            <!-- <div class="wrapper-main-nav ">
                                 <nav class="nav-collapse responsive-menu">
                                     <ul class="main-menu">
                                         <li><a href="index.html">Home</a></li>
@@ -147,7 +147,7 @@ if (isset($_POST['login'])) {
 
                                 </nav>
 
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@ if (isset($_POST['login'])) {
         </div>
     </header>
 
-    <section class="container d-flex align-items-center">
+    <section class="container d-flex align-items-center mt-5">
         <div class=" mask d-flex align-items-center h-100 gradient-custom-3 col-md-6 mx-auto">
             <div class="container h-100 ">
                 <div class="row d-flex justify-content-center align-items-center h-80">
@@ -195,15 +195,14 @@ if (isset($_POST['login'])) {
 
 
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" name="login" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                                        <button type="submit" name="login" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Login</button>
                                     </div>
 
 
                                 </form>
-                                <!-- PHP For Registration -->
+                            
 
 
-                                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.php" class="fw-bold text-body"><u>Login here</u></a></p>
 
 
 

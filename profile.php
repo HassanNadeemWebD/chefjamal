@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['user'])){
 
-header("location:login.php");
+header("location:index.php");
 
 }
 ?>
@@ -95,7 +95,7 @@ header("location:login.php");
                                         <li><a href="single.html">Blog</a></li>
                                         <li><a href="our-chefs.html">Chefs</a></li>
                                         <li><a href="single.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                         <li class="submit-recipe"><a href="submit-recipe.html">Submit Recipe</a></li>
                                     </ul>
 
@@ -116,6 +116,7 @@ header("location:login.php");
         session_unset();
         session_destroy();
         // header("location:login.php");
+        echo "<script>window.location.href = 'index.html';</script>";
 
     }
 
